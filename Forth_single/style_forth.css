@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+	background-color: black;
+	background-size: cover;
+}
+
+.nav{
+	height:50px;
+	background: linear-gradient(45deg, blue, yellow);
+}
+
+.nav .logo{
+	display: inline-block;
+	position:absolute;
+	left: 0;
+	padding:15px;
+	font-size: 20px;
+	color: yellow;
+	
+
+}
+
+.nav ul{
+	position: absolute;
+	right: 5px;
+}
+
+.nav ul li{
+	display: inline-block;
+
+}
+
+.nav ul li a{
+
+	color: blue;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.home{
+	background:url("forth3.png");
+	background-size:cover;
+	height:100vh;
+}
+
+.about{
+	background-color: black;
+	background-size:cover;
+	
+
+}
+.services{
+	background-color: black;
+	background-size:cover;
+	
+
+}
+
+
+.home .text-container{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:90vh;
+	color: whitesmoke;
+	font-size: 40px;
+}
+
+.about-content{
+	margin:150px auto 150px auto;
+	width:700px;
+}
+
+.about-content h1{
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+	color: blue;
+}
+
+.about-content h2{
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+	color: blue;
+}
+
+.about-content strong{
+	
+	font-family: 'Roboto',sans-serif;
+	color: blue;
+}
+
+.about-content p{
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+	color: yellow;
+}
+
+.about-content ul li{
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+	color: yellow;
+}
+
+.services-content{
+	margin:80px auto 80px auto;
+	text-align: center;
+}
+
+/*aligning items in a row*/
+
+.services-content .card-container ul{
+	padding:0;
+}
+
+.services-content .card-container ul li{
+	list-style: none;
+	display: inline-block;
+	margin:20px;
+	width:300px;
+}
+
+.services-content .card-container ul li p{
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+	color: yellow;
+}
+
+.services-content h1{
+	font-family: 'Roboto',sans-serif;
+	color: blue;
+}
+
+.services-content .card-container h2{
+	
+	font-family: 'Lato', sans-serif;
+	color: blue;
+}
+
+.service-image{
+	border-radius: 200px;
+}
+
+.contact-content{
+	margin:80px auto 0 auto;
+	text-align: center;
+	background-color: whitesmoke;
+	padding:50px;
+}
+.contact-content h1{
+	font-family: 'Roboto',sans-serif;
+	color: blue;
+
+}
+
+.contact-content .address-holder{
+	font-family: 'Lato', sans-serif;
+
+}
+
+#footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#footer p{
+	color: yellow;
+}
+
+
